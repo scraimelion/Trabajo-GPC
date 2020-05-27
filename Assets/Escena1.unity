@@ -15,7 +15,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.6650944, g: 0.9113307, b: 1, a: 1}
+  m_FogColor: {r: 0.6666667, g: 0.92644167, b: 1, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.028
   m_LinearFogStart: 13
@@ -373,6 +373,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1515821423}
     m_Modifications:
+    - target: {fileID: 100002, guid: baec086904791744185aaa07a6cf55c2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: baec086904791744185aaa07a6cf55c2, type: 3}
       propertyPath: m_Name
       value: MultipurposeCameraRig
